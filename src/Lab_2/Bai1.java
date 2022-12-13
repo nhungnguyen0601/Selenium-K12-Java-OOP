@@ -10,7 +10,6 @@ public class Bai1 {
     System.out.println("Please input your height: ");
     float height =input.nextFloat();
     input.close();
-
     float BMI = weight / (height*2);
     System.out.println("Your BMI is" + BMI);
 
